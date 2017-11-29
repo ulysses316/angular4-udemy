@@ -3,11 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+// forma de importar un componente creado por uno
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PortafolioComponent } from './components/portafolio/portafolio.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // forma de importar un componente creado por uno, en el JSON
+
+    HeaderComponent,
+    FooterComponent,
+    PortafolioComponent,
   ],
   imports: [
     BrowserModule
