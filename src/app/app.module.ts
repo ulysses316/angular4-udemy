@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { AboutComponent } from './components/about/about.component';
+import { PortaitemComponent } from './components/portaitem/portaitem.component';
 
 
 
@@ -20,6 +21,7 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
+    PortaitemComponent,
   ],
   imports: [
     BrowserModule
