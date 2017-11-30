@@ -4,7 +4,7 @@ import { Component} from '@angular/core';
   selector: 'app-header',
   templateUrl: './header.component.html',
 })
-export class HeaderComponent {
+export class HeaderComponent {}
 
 // De acuerdo con las guías de Angular, el método ngOnInit tiene los siguientes propósitos:
 // – Realizar inicializaciones complejas: por ejemplo obtener datos por medio de un servicio para utilizarlos dentro del componente.

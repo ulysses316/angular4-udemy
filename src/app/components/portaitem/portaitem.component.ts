@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './portaitem.component.html',
 
 })
-export class PortaitemComponent implements OnInit {
+export class PortaitemComponent {
 
 
 }
