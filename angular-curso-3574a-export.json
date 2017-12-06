@@ -1,0 +1,24 @@
+{
+  "equipo" : [ {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-curso-3574a.appspot.com/o/equipo0.jpg?alt=media&token=2100e737-9937-4380-a8ac-f6ef8df11528",
+    "frase" : "Me cai we",
+    "nombre" : "Hector Ulises G.M.",
+    "subtitulo" : "CEO",
+    "twitter" : "https://twitter.com/ulises316",
+    "url" : "https://github.com/ulysses316"
+  }, {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-curso-3574a.appspot.com/o/equipo1.jpg?alt=media&token=9ec43556-fbd3-4470-ac1c-8c5ab8263326",
+    "frase" : "No estoy narizon",
+    "nombre" : "\"Waldo Uriel M.M de Oca",
+    "subtitulo" : "Marcketing",
+    "twitter" : "https://twitter.com/WaldoMDO",
+    "url" : "https://www.facebook.com/waldo.mellado?ref=br_rs"
+  }, {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-curso-3574a.appspot.com/o/equipo2.jpg?alt=media&token=7f9630ce-cf86-4797-8a05-c59d40451c61",
+    "frase" : "Juan, soy Gus hazme una",
+    "nombre" : "Gustavo M.",
+    "subtitulo" : "Diseñador",
+    "twitter" : "https://twitter.com/GustavoTrucha",
+    "url" : "https://www.facebook.com/TheTacos"
+  } ]
+}
