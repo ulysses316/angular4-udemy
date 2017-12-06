@@ -4,13 +4,26 @@ import { Http } from '@angular/http';
 @Injectable()
 export class InformacionService {
 
-  info:any={};
+  info: any = {};
+  equipo:any[] =[];
 
-  constructor(public http:Http) {
-  this.http.get("assets/data/info.pagina.json")
-           .subscribe(data =>{
-             console.log(data.json());
-              this.info=data.json();
-           })
-          }
+  constructor(public http: Http) {
+    this.carga_info();
+    this.carga_sobre_nosotros();
+  }
+
+  public carga_info() {
+    this.http.get("assets/data/info.pagina.json")
+      .subscribe(data => {
+        this.info = data.json();
+      })
+  }
+
+  public carga_sobre_nosotros() {
+    this.http.get("https://angular-curso-3574a.firebaseio.com/equipo.json")
+      .subscribe(data => {
+        this.equipo = data.json();
+        console.log(this.equipo);
+      })
+  }
 }
