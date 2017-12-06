@@ -1,12 +1,19 @@
+//=================== Modulos  =========================//
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http'
 
-//Rutas
+//===================   Rutas  ==========================//
 
-import { app_routing } from "./app.routes"
+import { app_routing } from "./app.routes";
 
+//===================  Servicios  =======================//
 
-//Componentes
+import { InformacionService } from "./services/informacion.service";
+
+//=================== Componentes  ======================//
+
 import { AppComponent } from './app.component';
 // forma de importar un componente creado por uno
 import { HeaderComponent } from './components/header/header.component';
@@ -30,9 +37,12 @@ import { PortaitemComponent } from './components/portaitem/portaitem.component';
   ],
   imports: [
     BrowserModule,
-    app_routing
+    app_routing,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    InformacionService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
