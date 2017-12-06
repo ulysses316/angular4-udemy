@@ -11,7 +11,7 @@ import { app_routing } from "./app.routes";
 //===================  Servicios  =======================//
 
 import { InformacionService } from "./services/informacion.service";
-
+import { ProductoService } from "./services/producto.service";
 //=================== Componentes  ======================//
 
 import { AppComponent } from './app.component';
@@ -41,7 +41,8 @@ import { PortaitemComponent } from './components/portaitem/portaitem.component';
     HttpModule
   ],
   providers: [
-    InformacionService
+    InformacionService,
+    ProductoService
   ],
   bootstrap: [AppComponent]
 })

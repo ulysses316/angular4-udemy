@@ -23,7 +23,7 @@ export class InformacionService {
     this.http.get("https://angular-curso-3574a.firebaseio.com/equipo.json")
       .subscribe(data => {
         this.equipo = data.json();
-        console.log(this.equipo);
+
       })
   }
 }
