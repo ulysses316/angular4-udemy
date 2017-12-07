@@ -10,11 +10,17 @@
   }
 
   to {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
 
 .fadeIn {
   animation-name: fadeIn;
+}
+
+/*SVG loading*/
+svg path,
+svg rect{
+  fill: black;
 }
