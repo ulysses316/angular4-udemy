@@ -18,7 +18,6 @@ export class PortaitemComponent {
           .subscribe(res=>{
             this.producto=res.json();
             this.codigo=parametros['id']
-            console.log(this.producto);
           });
      });
   }

@@ -21,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortaitemComponent } from './components/portaitem/portaitem.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 
@@ -34,6 +35,7 @@ import { PortaitemComponent } from './components/portaitem/portaitem.component';
     PortafolioComponent,
     AboutComponent,
     PortaitemComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
